@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "www",
+    "public": "",
     "headers": [
       {
         "source": "/@(ngsw-worker.js|ngsw.json)",
@@ -16,12 +16,6 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   }
 }
